@@ -38,7 +38,7 @@
 	})
 
 
-        // this is the actual api and the key 
+
 	  
 	  $('#televisonshows').on('click', '.newshow', function() {
 	  	var m = $(this).text();
