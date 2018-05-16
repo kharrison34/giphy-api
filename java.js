@@ -43,7 +43,7 @@
 	  $('#televisonshows').on('click', '.newshow', function() {
 	  	var m = $(this).text();
         
-        var queryURL = "http://api.giphy.com/v1/gifs/search?q="  + m + "&api_key=qYPdHXjgilROMOCkF4N3RuIki9d69Bur&limit=10";
+        var queryURL = "https://api.giphy.com/v1/gifs/search?q="  + m + "&api_key=qYPdHXjgilROMOCkF4N3RuIki9d69Bur&limit=10";
         $.ajax({url: queryURL, method: 'GET'})
 
         .done(function(response) {
